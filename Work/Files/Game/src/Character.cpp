@@ -1,4 +1,5 @@
 #include "Character.h"
+#include <typeinfo>
 
 /*=================/
 /  Class Character /
@@ -9,7 +10,7 @@ Character::Character(string theName, int theId) : name(theName), id(theId){
     this->jump = nullptr;
     this->run = nullptr;
     this->attack = nullptr;
-    //this->state = new normalState();
+    this->state = new normalState(this);
 }
 
 string Character::getName() {
@@ -22,6 +23,28 @@ void Character::setName(string newName) {
 
 int Character::getId() {
     return this->id;
+}
+
+void Character::setLife(int life) {
+    this->life = life;
+}
+
+int Character::getLife() {
+    return this->life;
+}
+
+void Character::takesDamege(int damage) {
+    cout << "Take damage!" << endl;
+    cout << "Life is " << this->getLife() << endl;
+    state->damage(damage);
+    cout << "New life is " << this->getLife() << endl;
+}
+
+void Character::takeLife(int life) {
+    cout << "Take life!" << endl;
+    cout << "Life is " << this->getLife() << endl;
+    state->life(life);
+    cout << "New life is " << this->getLife() << endl;
 }
 
 /*=================/
@@ -58,7 +81,7 @@ Character3::Character3(string name, int id) : Character{name, id}{
 / Actions Character /
 /*=================*/
 
-Jump * Character::getJump() {
+Jump* Character::getJump() {
     return this->jump;
 }
 
@@ -70,7 +93,7 @@ void Character::jumping(){
     jump->jump();
 }
 
-Run * Character::getRun() {
+Run* Character::getRun() {
     return this->run;
 }
 
@@ -82,14 +105,22 @@ void Character::running() {
     run->run();
 }
 
-Attack * Character::getAttack() {
+Attack* Character::getAttack() {
     return this->attack;
 }
 
-void * Character::setAttack(Attack * newAttack) {
+void Character::setAttack(Attack * newAttack) {
     this->attack = newAttack;
 }
 
 void Character::attacking() {
     attack->attack();
+}
+
+void Character::setState(State * newState) {
+    this->state = newState;
+}
+
+State* Character::getState() {
+    return this->state;
 }

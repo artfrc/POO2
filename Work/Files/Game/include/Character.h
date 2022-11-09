@@ -6,12 +6,15 @@
 #include "Jump.h"
 #include "Run.h"
 #include "Attack.h"
+#include "State.h"
 
 using namespace std;
 
 /*=================/
 /  Class Character /
 /*================*/
+
+class State;
 
 class Character {
 private:
@@ -21,7 +24,7 @@ private:
     Jump* jump;
     Run* run;
     Attack* attack;
-    //State* state;
+    State* state;
 
 public:
     Character(string theName, int theId);
@@ -31,17 +34,26 @@ public:
 
     int getId();
 
-    Jump * getJump();
-    void setJump(Jump * newJump);
+    Jump* getJump();
+    void setJump(Jump* newJump);
     void jumping();
 
-    Run * getRun();
-    void setRun(Run * newRun);
+    Run* getRun();
+    void setRun(Run* newRun);
     void running();
 
-    Attack * getAttack();
-    void * setAttack(Attack * newAttack);
+    Attack* getAttack();
+    void setAttack(Attack* newAttack);
     void attacking();
+
+    void setState(State * newState);
+    State* getState();
+
+    void setLife(int life);
+    int getLife();
+
+    void takesDamege(int damage);
+    void takeLife(int life);
 
 };
 

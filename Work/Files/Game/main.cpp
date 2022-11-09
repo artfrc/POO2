@@ -36,5 +36,16 @@ int main() {
     cout << ">>> Switching attack!\n";
     c3->attacking();
 
+    cout << endl << c3->getName() << " ";
+
+    c3->takesDamege(20);
+    c3->attacking();
+    c3->takeLife(30);
+    c3->attacking();
+    c3->takesDamege(20);
+    c3->takesDamege(20);
+    c3->takesDamege(20);
+    c3->takesDamege(20);
+
     return 0;
 }

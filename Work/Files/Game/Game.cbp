@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Attack.h" />
+		<Unit filename="include/Character.h" />
+		<Unit filename="include/Jump.h" />
+		<Unit filename="include/Run.h" />
+		<Unit filename="include/State.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Attack.cpp" />
+		<Unit filename="src/Character.cpp" />
+		<Unit filename="src/Jump.cpp" />
+		<Unit filename="src/Run.cpp" />
+		<Unit filename="src/State.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
