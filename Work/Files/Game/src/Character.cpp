@@ -11,6 +11,7 @@ Character::Character(string theName, int theId) : name(theName), id(theId){
     this->run = nullptr;
     this->attack = nullptr;
     this->state = new normalState(this);
+    this->shield = nullptr;
 }
 
 string Character::getName() {
@@ -45,6 +46,11 @@ void Character::takeLife(int life) {
     cout << "Life is " << this->getLife() << endl;
     state->life(life);
     cout << "New life is " << this->getLife() << endl;
+}
+
+bool Character::hasShield() {
+    if(this->shield != nullptr) return true;
+    else return false;
 }
 
 /*=================/

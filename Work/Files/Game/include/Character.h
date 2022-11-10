@@ -15,6 +15,7 @@ using namespace std;
 /*================*/
 
 class State;
+class Shield;
 
 class Character {
 private:
@@ -25,6 +26,7 @@ private:
     Run* run;
     Attack* attack;
     State* state;
+    Shield* shield;
 
 public:
     Character(string theName, int theId);
@@ -46,7 +48,7 @@ public:
     void setAttack(Attack* newAttack);
     void attacking();
 
-    void setState(State * newState);
+    void setState(State* newState);
     State* getState();
 
     void setLife(int life);
@@ -54,6 +56,9 @@ public:
 
     void takesDamege(int damage);
     void takeLife(int life);
+
+    void takeShield(Shield* typeShield);
+    bool hasShield();
 
 };
 

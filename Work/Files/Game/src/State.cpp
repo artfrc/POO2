@@ -6,6 +6,7 @@ State::State(Character* c) {
 
 void State::damage(int damage) {
     this->c->setLife(this->c->getLife() - damage);
+    cout << this->c->getLife() << endl;
     this->checkState();
 }
 

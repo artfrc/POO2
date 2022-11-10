@@ -31,11 +31,11 @@
 1667929573 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\strategy\game\src\run.cpp
 	"Run.h"
 
-1668005614 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\main.cpp
+1668085360 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\main.cpp
 	<iostream>
 	"Character.h"
 
-1668000705 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\include\character.h
+1668086124 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\include\character.h
 	<iostream>
 	<string>
 	"Jump.h"
@@ -55,7 +55,7 @@
 1667929526 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\src\attack.cpp
 	"Attack.h"
 
-1668005318 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\src\character.cpp
+1668085995 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\src\character.cpp
 	"Character.h"
 	<typeinfo>
 
@@ -65,10 +65,16 @@
 1667929573 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\src\run.cpp
 	"Run.h"
 
-1668005231 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\src\state.cpp
+1668085257 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\src\state.cpp
 	"State.h"
 
-1668004937 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\include\state.h
+1668086128 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\include\state.h
 	<iostream>
 	"Character.h"
+
+1668086124 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\src\shield.cpp
+	"Shield.h"
+
+1668086124 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\files\game\include\shield.h
+	<iostream>
 

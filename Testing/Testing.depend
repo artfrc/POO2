@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1668107155 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\main.cpp
+	<iostream>
+	"Character.h"
+
+1668102962 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\character.cpp
+	"Character.h"
+
+1668105527 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\character.h
+	"Jump.h"
+	"Run.h"
+	"Attack.h"
+	"CharacterState.h"
+
+1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\jump.cpp
+	"Jump.h"
+
+1668105386 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\jump.h
+	<iostream>
+
+1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\run.cpp
+	"Run.h"
+
+1668104673 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\run.h
+	<iostream>
+
+1668104611 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\attack.cpp
+	"Attack.h"
+
+1668104630 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\attack.h
+	<iostream>
+
+1668105355 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\characterstate.h
+	<iostream>
+	<typeinfo>
+	"Character.h"
+
+1668106321 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\characterstate.cpp
+	"CharacterState.h"
+
