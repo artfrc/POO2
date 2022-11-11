@@ -1,16 +1,17 @@
 # depslib dependency file v1.0
-1668107155 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\main.cpp
+1668124240 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\main.cpp
 	<iostream>
 	"Character.h"
 
-1668102962 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\character.cpp
+1668177815 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\character.cpp
 	"Character.h"
 
-1668105527 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\character.h
+1668119327 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\character.h
 	"Jump.h"
 	"Run.h"
 	"Attack.h"
 	"CharacterState.h"
+	"IHandler.h"
 
 1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\jump.cpp
 	"Jump.h"
@@ -35,6 +36,13 @@
 	<typeinfo>
 	"Character.h"
 
-1668106321 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\characterstate.cpp
+1668107357 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\characterstate.cpp
 	"CharacterState.h"
+
+1668124240 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\ihandler.h
+	<iostream>
+	<string>
+
+1668121993 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\ihandler.cpp
+	"IHandler.h"
 
