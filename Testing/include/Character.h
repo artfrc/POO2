@@ -5,12 +5,12 @@
 #include "Run.h"
 #include "Attack.h"
 #include "CharacterState.h"
-#include "IHandler.h"
+#include "Shield.h"
 
 using namespace std;
 
 class CharacterState;
-class IHandler;
+class Shield;
 
 class Character {
 protected:
@@ -19,7 +19,7 @@ protected:
     Run* _run;
     Attack* _attack;
     CharacterState* _state;
-    IHandler* shield;
+    Shield* sh;
 
 public:
     Character();
@@ -32,14 +32,14 @@ public:
     void setAttack(Attack* a);
     void setState(CharacterState* state);
     void setLife(int value);
-    void setShield(IHandler* handler);
+    void setShield(Shield* sh);
 
     Jump* getJump();
     Run* getRun();
     Attack* getAttack();
     CharacterState* getState();
     int getLife();
-    IHandler* getShield();
+    Shield* getShield();
 
     // Others functions
 
@@ -48,7 +48,7 @@ public:
     void running();
     void transitionTo(CharacterState* state);
     void takesDamage(int value);
-    void takesShield(IHandler* handler);
+    void takesShield(Shield* sh);
 
 };
 

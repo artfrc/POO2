@@ -36,6 +36,8 @@ int main() {
 
     cout << endl << "### TESTING CHAIN OF RESPOSIBILITY PATTERN ###" << endl;
     cout << endl << "### Character02 ###" << endl;
+    c2->takesDamage(20);
+    c2->takesShield(new weakShield());
     c2->takesDamage(50);
     c2->attacking();
     c2->jumping();

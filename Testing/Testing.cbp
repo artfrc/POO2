@@ -37,16 +37,16 @@
 		<Unit filename="include/Attack.h" />
 		<Unit filename="include/Character.h" />
 		<Unit filename="include/CharacterState.h" />
-		<Unit filename="include/IHandler.h" />
 		<Unit filename="include/Jump.h" />
 		<Unit filename="include/Run.h" />
+		<Unit filename="include/Shield.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Attack.cpp" />
 		<Unit filename="src/Character.cpp" />
 		<Unit filename="src/CharacterState.cpp" />
-		<Unit filename="src/IHandler.cpp" />
 		<Unit filename="src/Jump.cpp" />
 		<Unit filename="src/Run.cpp" />
+		<Unit filename="src/Shield.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
