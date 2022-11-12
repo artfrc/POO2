@@ -1,73 +1,64 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-class Saque {
+class Carro {
 protected:
-    Saque* successor;
+	double custo;
+	string descricao;
 
 public:
-    void setSuccessor(Saque* successor) {
-        this->successor = successor;
-    }
-
-    Saque* getSuccessor() {
-        return this->successor;
-    }
-
-    virtual void processSaque(int value) = 0;
+	double getCusto() { return this->custo; }
+	string getDescricao() { return this->descricao; }
+	void setCusto(double custo) { this->custo = custo; }
+	void setDescricao(string s) { this->descricao = s; }
 };
 
-class Saque100 : public Saque {
-    void processSaque(int value) override{
-        int notas = value/100;
-        int rest = value%100;
-
-        if(notas != 0)
-            cout << "Notas 100: " << notas << endl;
-
-        if(rest != 0 && getSuccessor() != nullptr)
-            getSuccessor()->processSaque(rest);
-    }
+class Voyage : public Carro {
+public:
+	Voyage() {
+		this->setCusto(60000);
+		this->setDescricao("Voyage");
+	}
 };
 
-class Saque50 : public Saque {
-    void processSaque(int value) override{
-        int notas = value/50;
-        int rest = value%50;
+class Decorator : public Carro {
+protected:
+	Carro* decorado;
 
-        if(notas != 0)
-            cout << "Notas 50: " << notas << endl;
+public:
+	Decorator(Carro* decorado) {
+		this->decorado = decorado;
+	}
 
-        if(rest != 0 && getSuccessor() != nullptr)
-            getSuccessor()->processSaque(rest);
-    }
+	double getCusto() {
+		return decorado->getCusto() + Carro::getCusto();
+	}
+
+	string getDescricao() {
+		return decorado->getDescricao() + ", " + Carro::getDescricao();
+	}
+
 };
 
-class Saque20 : public Saque {
-    void processSaque(int value) override{
-        int notas = value/20;
-        int rest = value%20;
-
-        if(notas != 0)
-            cout << "Notas 20: " << notas << endl;
-
-        if(rest != 0 && getSuccessor() == nullptr)
-            cout << "Nao ha notas de " << rest << endl;
-    }
+class arCondicionado : public Decorator {
+public:
+	arCondicionado(Carro* decorator) : Decorator { decorator } {
+		setCusto(900+getCusto());
+		setDescricao(getDescricao()+"Ar");
+	}
 };
 
-int main(void) {
+int main() {
 
-    Saque* saque100 = new Saque100();
-	Saque* saque50 = new Saque50();
-	Saque* saque20 = new Saque20();
+	Carro* carro = new Voyage();
 
-	saque100->setSuccessor(saque50);
-	saque50->setSuccessor(saque20);
-	saque20->setSuccessor(nullptr);
+	cout << carro->getDescricao() << " ";
+	cout << carro->getCusto() << endl;
 
-	saque100->processSaque(575);
 
+	carro = new arCondicionado(carro);
+
+	cout << carro->getDescricao() << " ";
+	cout << carro->getCusto() << endl;
 
 }

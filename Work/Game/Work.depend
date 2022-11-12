@@ -1,0 +1,142 @@
+# depslib dependency file v1.0
+1668220576 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\main.cpp
+	<iostream>
+	"Character.h"
+
+1668220576 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\character.h
+	"Jump.h"
+	"Run.h"
+	"Attack.h"
+	"CharacterState.h"
+	"Shield.h"
+
+1668105386 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\jump.h
+	<iostream>
+
+1668104673 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\run.h
+	<iostream>
+
+1668220576 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\attack.h
+	<iostream>
+
+1668105355 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\characterstate.h
+	<iostream>
+	<typeinfo>
+	"Character.h"
+
+1668200707 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\include\shield.h
+	<iostream>
+
+1668220576 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\attack.cpp
+	"Attack.h"
+
+1668220958 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\character.cpp
+	"Character.h"
+	<iostream>
+
+1668107357 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\characterstate.cpp
+	"CharacterState.h"
+
+1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\jump.cpp
+	"Jump.h"
+
+1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\run.cpp
+	"Run.h"
+
+1668200707 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\src\shield.cpp
+	"Shield.h"
+
+1668220576 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\main.cpp
+	<iostream>
+	"Character.h"
+
+1668220576 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\include\character.h
+	"Jump.h"
+	"Run.h"
+	"Attack.h"
+	"CharacterState.h"
+	"Shield.h"
+
+1668105386 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\include\jump.h
+	<iostream>
+
+1668104673 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\include\run.h
+	<iostream>
+
+1668220576 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\include\attack.h
+	<iostream>
+
+1668105355 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\include\characterstate.h
+	<iostream>
+	<typeinfo>
+	"Character.h"
+
+1668200707 c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\include\shield.h
+	<iostream>
+
+1668220576 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\src\attack.cpp
+	"Attack.h"
+
+1668220958 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\src\character.cpp
+	"Character.h"
+	<iostream>
+
+1668107357 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\src\characterstate.cpp
+	"CharacterState.h"
+
+1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\src\jump.cpp
+	"Jump.h"
+
+1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\src\run.cpp
+	"Run.h"
+
+1668200707 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\testing\game\src\shield.cpp
+	"Shield.h"
+
+1668220576 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\main.cpp
+	<iostream>
+	"Character.h"
+
+1668220576 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\include\character.h
+	"Jump.h"
+	"Run.h"
+	"Attack.h"
+	"CharacterState.h"
+	"Shield.h"
+
+1668105386 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\include\jump.h
+	<iostream>
+
+1668104673 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\include\run.h
+	<iostream>
+
+1668220576 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\include\attack.h
+	<iostream>
+
+1668105355 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\include\characterstate.h
+	<iostream>
+	<typeinfo>
+	"Character.h"
+
+1668200707 c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\include\shield.h
+	<iostream>
+
+1668220576 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\src\attack.cpp
+	"Attack.h"
+
+1668220958 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\src\character.cpp
+	"Character.h"
+	<iostream>
+
+1668107357 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\src\characterstate.cpp
+	"CharacterState.h"
+
+1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\src\jump.cpp
+	"Jump.h"
+
+1668088053 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\src\run.cpp
+	"Run.h"
+
+1668200707 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\work\game\src\shield.cpp
+	"Shield.h"
+
