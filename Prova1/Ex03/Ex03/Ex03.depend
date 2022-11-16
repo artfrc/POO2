@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1668563506 source:c:\users\arthu\onedrive\Área de trabalho\poo2\prova1\ex03\ex03\main.cpp
+	<iostream>
+	"GeometricObject.h"
+
+1668563562 source:c:\users\arthu\onedrive\Área de trabalho\poo2\prova1\ex03\ex03\src\geometricobject.cpp
+	"GeometricObject.h"
+
+1668563541 c:\users\arthu\onedrive\Área de trabalho\poo2\prova1\ex03\ex03\include\geometricobject.h
+	<iostream>
+	<string>
+

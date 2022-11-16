@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1668546379 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex02\ex02\main.cpp
+	<iostream>
+	"Automaton.h"
+
+1668546063 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex02\ex02\src\automaton.cpp
+	"Automaton.h"
+
+1668546047 c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex02\ex02\include\automaton.h
+	<iostream>
+	<string>
+	"State.h"
+
+1668545878 c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex02\ex02\include\state.h
+	<iostream>
+	<string>
+	<typeinfo>
+	"Automaton.h"
+
+1668546418 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex02\ex02\src\state.cpp
+	"State.h"
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1668540717 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex01\main.cpp
+	<iostream>
+	"Product.h"
+
+1668518556 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex01\src\product.cpp
+	"Product.h"
+
+1668518077 c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex01\include\product.h
+	<iostream>
+	"State.h"
+
+1668519431 c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex01\include\state.h
+	<iostream>
+	<climits>
+	"Product.h"
+	<typeinfo>
+
+1668519671 source:c:\users\arthu\onedrive\햞ea de trabalho\poo2\prova1\ex01\src\state.cpp
+	"State.h"
+
